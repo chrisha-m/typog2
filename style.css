@@ -1,0 +1,97 @@
+body {
+            margin: 1;
+            background-color: #ffd361;
+
+        }
+
+        h3 {
+            padding: 0px;
+            margin: 0px;
+            color: white;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: repeat(4 1fr);
+
+            column-gap: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-right: 50px;
+            padding-left: 50px;
+            box-sizing: border-box;
+            row-gap: 3px;
+        }
+        .container div {
+            padding: 0px;
+            border: 0px solid #000;
+        }
+
+        .header {
+            grid-column-start: 1;
+            grid-column-end: 5;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+        }
+        .mainline1a {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 150px;
+
+            display: grid;
+            align-items: end;
+
+            text-shadow: -1px -1px 0px #ffd361,
+                        3px 3px 0px #ffd361,
+                        7px 7px 0px #fff;
+
+        }
+        .mainline1b {
+            font-family: 'Petit Formal Script', cursive;
+            color: #fff;
+            font-size: 127px;
+
+            display: grid;
+            align-items: end;
+        }
+        .sidebar1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 13px;
+        }
+        .mainline2 {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 150px;
+
+            display: inline-block;
+            line-height: 105px;
+
+            text-shadow: -1px -1px 0px #ffd361,
+                        3px 3px 0px #ffd361,
+                        7px 7px 0px #fff;
+        }
+        .sidebar2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 13px;
+        }
+        .footer {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 13px;
+
+            display: grid;
+            align-items: end;
+        }
+        .icon {
+            display: grid;
+            justify-items: end;
+            align-items: end;
+        }
